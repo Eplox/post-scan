@@ -1,4 +1,5 @@
-#!/bin/bash
+!/bin/bash
+
 if [ -z $1 ]
 then
     echo
@@ -29,6 +30,7 @@ then
     echo 99: Tricks and Tips
     exit
 fi
+
 
 
 case "$1" in
